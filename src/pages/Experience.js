@@ -2,7 +2,7 @@ import React from 'react';
 //icons
 import {RxBarChart} from 'react-icons/rx'
 import {ImStatsBars} from 'react-icons/im'
-import {TbCertificate} from 'react-icons/tb'
+// import {TbCertificate} from 'react-icons/tb'
 const Experience = () => {
     const experiences =[
         {
@@ -46,26 +46,26 @@ const Experience = () => {
             tools:['MS Office','Google Spreadsheet','VPN/Proxy','50wpm typing','Email Verify','Premium Tools',]
         },
     ]
-    const certificates = [
-        {
-            id:1,
-            name:"Certificate Name",
-            date:'12/2/2022',
-            img:"https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        },
-        {
-            id:2,
-            name:"Certificate Name",
-            date:'12/2/2022',
-            img:"https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        },
-        {
-            id:3,
-            name:"Certificate Name",
-            date:'12/2/2022',
-            img:"https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        },
-    ]
+    // const certificates = [
+    //     {
+    //         id:1,
+    //         name:"Certificate Name",
+    //         date:'12/2/2022',
+    //         img:"https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    //     },
+    //     {
+    //         id:2,
+    //         name:"Certificate Name",
+    //         date:'12/2/2022',
+    //         img:"https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    //     },
+    //     {
+    //         id:3,
+    //         name:"Certificate Name",
+    //         date:'12/2/2022',
+    //         img:"https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    //     },
+    // ]
     return (
         <div className='mx-10 lg:mx-20'>
             <h1 className='text-3xl px-5 font-extralight'>Working Experience:</h1>
@@ -108,7 +108,7 @@ const Experience = () => {
                     
                 }               
             </section>
-            <h1 className='text-3xl px-5 font-extralight'>Skills Certification:</h1>
+            {/* <h1 className='text-3xl px-5 font-extralight'>Skills Certification:</h1>
             <section className='flex flex-wrap gap-10 p-5 '>
                 {
                     certificates.map(i=>(
@@ -126,7 +126,7 @@ const Experience = () => {
                         </div> 
                     ))
                 }               
-            </section>
+            </section> */}
         </div>
     );
 };
