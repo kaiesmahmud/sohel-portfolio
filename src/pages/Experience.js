@@ -7,7 +7,7 @@ const Experience = () => {
     const experiences =[
         {
             id:1,
-            name:'Full Stack Developer',
+            name:'Digital Marketing Specialist ',
             company:"DevdeerTech Digital Business Solution",
             time:"From July, 2022 to 2023"
         },
@@ -27,18 +27,23 @@ const Experience = () => {
     const skills = [
         {
             id:1,
-            name:"topic name",
-            tools:['tools','tools','tools','tools','tools','tools','tools',]
+            name:"Digital Marketing",
+            tools:['SMM','SME','SEM','SEO','Adwards','Classifieds',]
         },
         {
             id:2,
-            name:"topic name",
-            tools:['tools','tools','tools','tools','tools','tools','tools',]
+            name:"Search Engine Optimization(SEO)",
+            tools:['On-page SEO','Off-page SEO','Local SEO','Technical SEO','Website Audit','Keyword Research','Keyword Analyze','Compititor Analyze',]
         },
         {
             id:3,
-            name:"topic name",
-            tools:['tools','tools','tools','tools','tools','tools','tools',]
+            name:"Social Media Marketing(SMM)",
+            tools:['Canva Pro','Illustrator','Photoshop','Content Writing','ChatGPT','Premium Tools',]
+        },
+        {
+            id:4,
+            name:"Lead Generation Data Entry",
+            tools:['MS Office','Google Spreadsheet','VPN/Proxy','50wpm typing','Email Verify','Premium Tools',]
         },
     ]
     const certificates = [
@@ -86,7 +91,7 @@ const Experience = () => {
                     skills.map(skill=>(
                         <div key={skill.id} className='w-[100%] lg:w-[30%] border rounded-lg  p-5 bg-gray-900'>
                             <div className=' flex justify-start gap-5 items-start'>
-                                <ImStatsBars className='text-3xl p-1 border rounded-full'/>
+                                <ImStatsBars className='text-3xl p-1 border rounded-full min-w-[30px]'/>
                                 <div className='flex flex-col gap-2'>
                                     <h2 className='text-lg font-extralight'>{skill.name}</h2>
                                     <div className='flex flex-wrap gap-2'>

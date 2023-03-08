@@ -13,14 +13,14 @@ const About = () => {
         {
             id:2,
             name:'HSC in Science',
-            institute:'Savar Govt College',
+            institute:'Dania University & College',
             time:'August, 2018 to November, 2020',
             cgpa:'CGPA: 4.67 (out of 5.00)'            
         },
         {
             id:3,
             name:'SSC in Science',
-            institute:'Gokulnagar High School',
+            institute:'Malek Molla High School',
             time:'January, 2016 to January, 2018',
             cgpa:'CGPA: 4.61 (out of 5.00)'            
         },
@@ -29,7 +29,7 @@ const About = () => {
         <div className=' m-10 lg:m-20'>
             <section  className='mx-5 md:mx-10 lg:mx-20 my-20 p-5 flex flex-col items-center lg:flex-row lg:justify-between '>
                 <div className='w-[100%] lg:max-w-[50%] flex justify-center items-center '>
-                    <img src='sohel.jpeg' alt='Kaies Mahmud Nehal' className='rounded-[50%] w-[50%] max-w-[500px] border '/>
+                    <img src='sohel-1.jpeg' alt='Nawab Alam sohel' className='rounded-[50%] w-[50%] max-w-[500px] border '/>
                 </div>
                 <div className='mt-10 lg:m-0 text-center lg:text-start lg:max-w-[50%]'>
                     <p className='text-sm md:text-base lg:text-xl opacity-70 font-extralight'>
@@ -72,7 +72,9 @@ const About = () => {
                 <h1 className='text-3xl font-extralight text-center pb-10 '>Hobby</h1>
                 <div className='flex items-center justify-center flex-wrap gap-6 font-extralight'>
                     <h4 className='bg-black border rounded px-3 py-1'>Programming</h4>
+                    <h4 className='bg-black border rounded px-3 py-1'>Problem Solving</h4>
                     <h4 className='bg-black border rounded px-3 py-1'>Travelling</h4>
+                    <h4 className='bg-black border rounded px-3 py-1'>Creative Thinking</h4>
                     <h4 className='bg-black border rounded px-3 py-1'>Peting Animal</h4>
                 </div>
             </section>

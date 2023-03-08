@@ -15,7 +15,7 @@ const Navbar = () => {
                 <nav className=' flex flex-col gap-4 lg:flex-row justify-between items-center mx-2 md:mx-10 lg:mx-20  '>
                     <div className='text-[2rem] lg:text-[3rem] font-extralight flex justify-between w-full'>
                         <NavLink to={'/'} onClick={()=>setOpenMenu(false)}>
-                        <p className='p-2'>N</p>
+                        <p className='p-2'>N_S</p>
                         </NavLink>
                         <div className='text-3xl lg:hidden cursor-pointer' onClick={changeOpenMenu}>
                             {openMenu? <VscClose/> :<HiBars2/>}
