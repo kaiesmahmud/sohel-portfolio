@@ -39,6 +39,7 @@ const Navbar = () => {
                         </NavLink>
                     </div>
                 </nav>
+                
             </header>
         </>
     );
