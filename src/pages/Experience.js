@@ -13,7 +13,7 @@ const Experience = () => {
         },
         {
             id:2,
-            name:'Marketing Coordinator & Web Developer',
+            name:'Marketing Coordinator ',
             company:"Digitex Crew Agency",
             time:"From January, 2022 to  april, 2022"
         },
