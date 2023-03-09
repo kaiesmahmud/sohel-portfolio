@@ -44,7 +44,7 @@ const ContactMe = () => {
                 </form>
             </div>
             <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233479.3811147067!2d90.12895018554961!3d23.885528746704868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9cdc8bac3b5%3A0xc155530f1e9923d6!2sSavar%20Upazila!5e0!3m2!1sen!2sbd!4v1678269487542!5m2!1sen!2sbd" width="600" height="450" style={{"border":"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className='rounded-xl shadow shadow-white'></iframe>   
+            <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233479.3811147067!2d90.12895018554961!3d23.885528746704868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9cdc8bac3b5%3A0xc155530f1e9923d6!2sSavar%20Upazila!5e0!3m2!1sen!2sbd!4v1678269487542!5m2!1sen!2sbd"  style={{"border":"0",'width':"600", 'height':"450"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className='rounded-xl shadow shadow-white'></iframe>   
             </div>
 
             { open && (<Snackbar open={open} autoHideDuration={4000} onClose={()=>setOpen(false)}>
