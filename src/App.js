@@ -21,14 +21,14 @@ function App() {
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/experience' element={<Experience/>}/>
         <Route path='/contactme' element={<ContactMe/>}/>
+        </Routes>
          {/* Whatsapp link  */}
-        {/* <div style={{color:'green'}} className=" fixed bottom-5 right-5 md:bottom-10 md:right-10 text-[30px] rounded-[50%]  bg-white p-4 shadow-2xl"> 
-          <a href="https://wa.me/message/NYI6PJ3INOWOM1" target={'_blank'} rel="noreferrer " >
+        <div style={{color:'green'}} className=" fixed bottom-5 right-5 md:bottom-10 md:right-10 text-[30px] rounded-[50%]  bg-white p-4 shadow-2xl"> 
+          <a href='https://wa.link/gk6d1r' target={'_blank'} rel="noreferrer " >
             <BsWhatsapp />
           </a>
-          <div className=' absolute top-[5%] right-[5%] w-3 h-3 bg-red-500 rounded-[50%]  animate-ping-smooth duration-[5s]'> </div>
-        </div> */}
-        </Routes>
+          <div className=' absolute top-[5%] right-[5%] w-3 h-3 bg-red-500 rounded-[50%]  animate-ping duration-[5s]'> </div>
+        </div>
       
     </div>
   );
