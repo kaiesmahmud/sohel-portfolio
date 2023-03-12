@@ -12,7 +12,7 @@ const Home = () => {
                     <h3 className='text-sm opacity-50'>SEO & Digital Marketing Specialist</h3>
                     <h4 className='text-xl opacity-70 '>Your website is the face of your business. The first impression you make on your potential customers is through your official website and Allied Technologies understands that this first impression better be impressive!</h4>
                     {/* <a href='/' className='hover:bg-black transition-all ease-in px-5 py-2 rounded border border-white w-fit cursor-pointer'>Download Resume</a> */}
-                    <div className='flex flex-wrap'>
+                    <div className='flex flex-wrap justify-center lg:justify-start  '>
                         <a href='https://wa.link/gk6d1r' className='hover:bg-black transition-all ease-in px-5 py-2 rounded border 
                         border-white w-fit cursor-pointer flex items-center gap-2 m-1'>
                             <BsWhatsapp className='text-lg'/>
